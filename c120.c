@@ -57,12 +57,10 @@ void visualizza_lista(struct lista *p) {
 struct lista *elimina_pari(struct lista *p) {
   struct lista *paux,*p2;
 
-  paux=p;
-  while(paux!=NULL && p->num%2==0) {
+  while(p!=NULL && p->num%2==0) {
         p2=p;
         p=p->next;
         free(p2);
-        paux=p;
     }
     if (p==NULL) return p;
     else {
