@@ -1,2 +1,2 @@
 # c_code
-C code included in the slides
+C code included in the slides + possible solutions for exams
