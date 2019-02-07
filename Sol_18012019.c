@@ -1,12 +1,3 @@
-// Esercizio 3 (max 30 punti). Scrivere un programma in C che:
-// 1. permetta all’utente di inserire da tastiera le coordinate (x e y) di n punti, con n scelto dall’utente (max 10 punti).
-// 2. stampi a video le coordinate di tutti i punti precedentemente inseriti (max 3 punti).
-// 3. calcoli per ogni punto la distanza dall’origine (punto di coordinate 0,0) e successivamente:
-// 	3.1 individui e stampi a video le coordinate del punto che ha la minima distanza dall’origine (max 5 punti);
-// 	3.2 inserisca in una lista concatenata (dinamica) tutti i punti che hanno una distanza dall’origine maggiore 	alla media delle distanze (max 10 punti);
-// 4. stampi a video le coordinate dei punti inseriti nella lista (max 2 punti).
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
