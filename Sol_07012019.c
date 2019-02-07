@@ -34,17 +34,23 @@ int main() {
           fscanf(fp1,"%d",&v[i]);
           i++;
     }
+
   printf("\nElenco dei %d numeri caricati dal file...\n",i);
   for(j=0;j<i;j++)
     printf("%d ",v[j]);
+
+
   ordina_array(v,i);
   printf("\nNumeri ordinati...\n");
   for(j=0;j<i;j++)
     printf("%d ",v[j]);
+
+
   for(j=0;j<i;j++) {
     check=check_unico(v,i,v[j]);
     if(check==0) lista=inser_lista(lista,v[j]);
     }
+    
   if(lista!=NULL) {
     printf("\nNumeri inseriti nella lista...\n");
     visualizza_lista(lista);
