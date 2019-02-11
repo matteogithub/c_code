@@ -1,3 +1,20 @@
+/*
+Esercizio 3 (max 30 punti) - Indovina il numero.
+
+Scrivere un programma in C che implementi le seguenti funzionalità:
+1. permetta di leggere da file un numero intero compreso tra 0 e 99 (max 3 punti);
+2. chieda all’utente di indovinare il numero. L’utente dovrà quindi digitare un numero fino a quando questo non corrisponda a quello letto da file. Il programma, ad ogni iterazione, dovrà indicare se il numero inserito dall’utente è maggiore o minore del numero da indovinare (max 6 punti);
+3. quando il numero è stato correttamente indovinato, il programma dovrà fornire all’utente tale informazione comunicando anche il numero di tentativi eseguiti (max 3 punti);
+
+--- Vedi Nota 1 ---
+
+4. il programma dovrà caricare in una lista concatenata tutti i numeri inseriti dall’utente e visualizzarli subito dopo che il numero è stato indovinato (max 10 punti);
+5. infine, il programma dovrà scrivere su un file i numeri digitati dall’utente prestando attenzione a non scrivere eventuali duplicati (max 8 punti);
+
+Esempio ->	Lista: 23 45 68 45 65 	File: 23 45 68 65
+
+Nota 1. I punti 4 e 5 saranno valutati solo se i punti 1, 2 e 3 saranno svolti correttamente.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

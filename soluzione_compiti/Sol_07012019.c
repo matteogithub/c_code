@@ -1,3 +1,14 @@
+/*
+Esercizio 3 (max 20 punti). Scrivere un programma in C che:
+1. permetta all’utente di leggere da file n numeri interi e di caricarli in un array (max 12 punti)
+2. stampi a video l’array in ordine crescente (max 8 punti)
+
+
+Esercizio 4 (max 10 punti). Estendere l’esercizio 3 con le seguenti funzionalità.
+Il programma dovrà consentire di:
+1. creare una lista lineare concatenata (utilizzando l’allocazione dinamica della memoria) che contenga tutti gli elementi unici presenti nell’array (max 8 punti)
+2. stampare a video gli elementi della lista solo se questa non è vuota (max 2 punti)
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #define DIM 50
